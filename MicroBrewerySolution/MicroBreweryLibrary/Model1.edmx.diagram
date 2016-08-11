@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="7bc03ab7b8bf417e9473daf856474bee" Name="Diagram1">
+        <EntityTypeShape EntityType="MicroBreweryDBModel.BeerRating" Width="1.5" PointX="5.25" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MicroBreweryDBModel.Beer" Width="1.5" PointX="3" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MicroBreweryDBModel.Beertype" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MicroBreweryDBModel.MicroBreweryRating" Width="1.5" PointX="3" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MicroBreweryDBModel.MicroBrewery" Width="1.5" PointX="0.75" PointY="4" IsExpanded="true" />
+        <AssociationConnector Association="MicroBreweryDBModel.FK__BeerRatin__BeerI__182C9B23" ManuallyRouted="false" />
+        <AssociationConnector Association="MicroBreweryDBModel.FK__Beers__BeerTypeI__145C0A3F" ManuallyRouted="false" />
+        <AssociationConnector Association="MicroBreweryDBModel.FK__Beers__BrewedByI__15502E78" ManuallyRouted="false" />
+        <AssociationConnector Association="MicroBreweryDBModel.FK__MicroBrew__Micro__1B0907CE" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

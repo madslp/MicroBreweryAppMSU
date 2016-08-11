@@ -9,12 +9,12 @@ namespace Repositories
 {
     public class BeerRepository : IBeerRepository
     {
-        private MicroBreweryDatabaseEntities dbEntities;
+        private MicroBreweryDBEntities dbEntities;
 
         public BeerRepository()
         {
 
-            dbEntities = new MicroBreweryDatabaseEntities();
+            dbEntities = new MicroBreweryDBEntities();
 
         }
 

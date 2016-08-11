@@ -13,10 +13,10 @@ namespace MicroBreweryLibrary
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class MicroBreweryDatabaseEntities : DbContext
+    public partial class MicroBreweryDBEntities : DbContext
     {
-        public MicroBreweryDatabaseEntities()
-            : base("name=MicroBreweryDatabaseEntities")
+        public MicroBreweryDBEntities()
+            : base("name=MicroBreweryDBEntities")
         {
         }
     
