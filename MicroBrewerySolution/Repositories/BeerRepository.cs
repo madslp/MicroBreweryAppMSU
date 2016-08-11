@@ -21,7 +21,7 @@ namespace Repositories
         public void Add(Beer beer)
         {
             dbEntities.Beers.Add(beer);
-            dbEntities.Beers.SaveChanges();
+            dbEntities.SaveChanges();
 
         }
 
