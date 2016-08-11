@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroBreweryLibrary", "MicroBreweryLibrary\MicroBreweryLibrary.csproj", "{845627E8-6CF7-43C5-A98D-856446D810DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repositories", "Repositories\Repositories.csproj", "{F511DD63-06F9-4072-8751-D97BC250DB10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{AC5952B6-9B47-46E0-B60F-1C6B9C0E8587}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{845627E8-6CF7-43C5-A98D-856446D810DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{845627E8-6CF7-43C5-A98D-856446D810DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{845627E8-6CF7-43C5-A98D-856446D810DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{845627E8-6CF7-43C5-A98D-856446D810DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F511DD63-06F9-4072-8751-D97BC250DB10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F511DD63-06F9-4072-8751-D97BC250DB10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F511DD63-06F9-4072-8751-D97BC250DB10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F511DD63-06F9-4072-8751-D97BC250DB10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC5952B6-9B47-46E0-B60F-1C6B9C0E8587}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC5952B6-9B47-46E0-B60F-1C6B9C0E8587}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC5952B6-9B47-46E0-B60F-1C6B9C0E8587}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC5952B6-9B47-46E0-B60F-1C6B9C0E8587}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
